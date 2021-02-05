@@ -1,11 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Name from "./name";
+import Nameclass from "./nameclass";
 
 function App({ name }) {
   return (
     <>
-      <Name name="Adarsh" />
+      <Nameclass name="Adarsh" />
       <Name name="Raj" />
     </>
   );
