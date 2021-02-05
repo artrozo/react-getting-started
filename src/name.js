@@ -1,6 +1,12 @@
-import React from "react";
-const Name = (props) => {
-  return <h1>Hello {props.name}</h1>;
+import React, { useState } from "react";
+const Name = () => {
+  const [name, setName] = useState("");
+  return (
+    <div>
+      <h1>Hello {name}</h1>
+      <input onChange={(e) => setName(e.target.value)} />
+    </div>
+  );
 };
 
 export default Name;

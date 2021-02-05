@@ -6,8 +6,8 @@ import Nameclass from "./nameclass";
 function App({ name }) {
   return (
     <>
-      <Nameclass name="Adarsh" />
-      <Name name="Raj" />
+      {/* <Nameclass /> */}
+      <Name />
     </>
   );
 }
